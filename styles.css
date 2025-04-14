@@ -105,7 +105,9 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    background-color: hsl(175, 58%, 55%);
 
 }
 
@@ -118,19 +120,23 @@ h2 {
     background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
     /* Espaçamento interno para a seção de contato */
 
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: hsl(199, 51%, 47%);
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(70, 189, 183, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
 }
 
 .formulario button {
@@ -140,7 +146,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: hsl(330, 70%, 49%);
 }
 .menu-acessibilidade{
     position: fixed;
